@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import styles from './dashboard.module.css';
 
-export const inventoryData = [
+const inventoryData = [
   {
     id: 1,
     name: "Laptop Dell XPS 13",
